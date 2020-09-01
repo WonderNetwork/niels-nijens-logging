@@ -11,5 +11,3 @@ before_script:
   - mkdir -p build/logs
 
 script: vendor/bin/phpunit --coverage-clover build/logs/clover.xml
-
-after_script: vendor/bin/coveralls -v
