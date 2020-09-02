@@ -39,9 +39,9 @@ abstract class AbstractLogAdapter implements LogAdapterInterface
      * @param  array $configuration
      * @return LogAdapterInterface
      **/
-    public function __construct(array $channels = array(), array $configuration = array() )
+    public function __construct(array $channels = null, array $configuration = array() )
     {
-        $this->setChannels($channels);
+        $this->setChannels((array) $channels);
         $this->setConfiguration($configuration);
     }
 

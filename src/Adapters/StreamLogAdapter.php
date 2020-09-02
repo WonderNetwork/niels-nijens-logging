@@ -31,7 +31,7 @@ class StreamLogAdapter extends AbstractLogAdapter
      * @param  array    $configuration
      * @return LogAdapterInterface
      **/
-    public function __construct(array $channels = array(), array $configuration = array() )
+    public function __construct(array $channels = null, array $configuration = array() )
     {
         parent::__construct($channels, $configuration);
 
