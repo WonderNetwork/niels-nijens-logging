@@ -1,6 +1,6 @@
 <?php
 
-namespace Nijens\Logging\Tests;
+namespace Nijens\Logging\Tests\Adapters;
 
 use Exception;
 use Psr\Log\LogLevel;

@@ -1,8 +1,9 @@
 <?php
 
-namespace Nijens\Logging\Tests;
+namespace Nijens\Logging\Tests\Adapters;
 
 use Nijens\Logging\Adapters\SentryLogAdapter;
+use Nijens\Logging\Tests\MockRavenClient;
 use Psr\Log\LogLevel;
 
 /**
