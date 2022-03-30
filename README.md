@@ -5,7 +5,7 @@ WonderProxy's fork of
 [niels-nijens/Logging](https://github.com/niels-nijens/Logging) that will run
 on PHP 5.6 and 7.4.
 
-Original readme below..
+Original readme below...
 
 Logging
 =======
